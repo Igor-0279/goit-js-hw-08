@@ -14,17 +14,6 @@ player.on('timeupdate', throttle(onPlay,1000));
  const localStorageGet = localStorage.getItem('videoplayer-current-time');
 
 player.setCurrentTime(localStorageGet);
-  // .then(function (seconds) {
-  //   // seconds = the current playback position
-  // })
-  // .catch(function (error) {
-  //   // an error occurred
-  // });
 
-// player.on('timeupdate', function (event) {
-//   console.log(event);
-// });
-
-// const throttle = lodash.throttle(event, 1000);
 
 
