@@ -35,6 +35,6 @@ function formSubmit(event) {
   console.log(feedback);
 
   localStorage.removeItem(STORAGE_KEY);
-  // emailInput.value =  '';
-  // messageInput.value = '';
+  emailInput.value =  '';
+  messageInput.value = '';
 }
